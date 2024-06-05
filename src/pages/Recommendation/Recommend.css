@@ -1,0 +1,82 @@
+.input-container h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.form-recommendation{
+    width: 50%;
+    align-items: center;
+}
+
+label{
+    padding-right: 20px;
+}
+
+.input-container hr{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.recommendation-display{
+    margin-top: 30px;
+}
+
+.form-input-container select{
+    outline: none;
+    border: 0.5px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+    gap: 20px;
+}
+
+.form-input-container button{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: #70b9e6 ;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.openingTitle{
+    font-weight: 300;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.weight-container select{
+    margin-top: 20px;
+}
+
+.food-item-info{
+    font-weight: 300;
+}
+
+.frekuensi-container select{
+    margin-top: 20px;
+}
+
+.recommendation-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(280px, 1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
+
+@media (max-width:750px) {
+    .recommendation-display-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 30px;
+        gap: 10px;
+        row-gap: 20px;
+    }
+    
+    
+}
