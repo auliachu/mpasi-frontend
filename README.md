@@ -1,4 +1,7 @@
-# React + Vite
+# SISTEM REKOMENDASI MAKANAN PENDAMPING AIR SUSU IBU (MP-ASI)
+## Mata Kuliah : Pengembangan Perangkat Lunak
+## React + Vite
+Ini adalah Repository Front-End web MyEasyMPASI
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
